@@ -1,0 +1,34 @@
+{
+  "name": "message-schedule",
+  "version": "1.0.0",
+  "description": "Agendamento de envio de mensagens",
+  "main": "src/index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DiegoSMascarenhas/LuizaMsg.git"
+  },
+  "author": "Diego Sanchez Mascarenhas",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DiegoSMascarenhas/LuizaMsg/issues"
+  },
+  "homepage": "https://github.com/DiegoSMascarenhas/LuizaMsg#readme",
+  "dependencies": {
+    "body-parser": "^1.19.1",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.2",
+    "morgan": "^1.10.0",
+    "mysql": "^2.18.1",
+    "nodemon": "^2.0.15",
+    "swagger-ui-express": "^4.3.0",
+    "yamljs": "^0.3.0"
+  }
+}
