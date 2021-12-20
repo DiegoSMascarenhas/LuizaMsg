@@ -14,34 +14,11 @@
   "consumes": [],
   "produces": [],
   "paths": {
-    "/": {
-      "get": {
-        "tags": [],
-        "description": "",
-        "parameters": [],
-        "responses": {
-          "200": {
-            "description": "OK"
-          }
-        }
-      }
-    },
-    "/agendamento": {
-      "get": {
-        "tags": [],
-        "description": "",
-        "parameters": [],
-        "responses": {
-          "200": {
-            "description": "OK"
-          }
-        }
-      }
-    },
+   
     "/allMessages": {
       "get": {
         "tags": [],
-        "description": "",
+        "description": "Retorna JSON com todos os agendamentos registrados no banco",
         "parameters": [],
         "responses": {}
       }
@@ -49,7 +26,7 @@
     "/message/{id}": {
       "get": {
         "tags": [],
-        "description": "",
+        "description": "Retorna JSON com o agendamento selecionado de acordo com o ID",
         "parameters": [
           {
             "name": "id",
@@ -64,7 +41,7 @@
     "/delete/message/{id}": {
       "delete": {
         "tags": [],
-        "description": "",
+        "description": "Remove registro do agendamento de acordo com o ID expecificado",
         "parameters": [
           {
             "name": "id",
@@ -79,7 +56,7 @@
     "/newMessage": {
       "post": {
         "tags": [],
-        "description": "",
+        "description": "Registra na Tabela do Banco de Dados o agendamento da mensagem.",
         "parameters": [
           {
             "name": "obj",
